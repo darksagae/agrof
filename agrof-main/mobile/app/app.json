@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "AGROF AI - Smart Crop Assistant",
+    "slug": "crop-disease-detector-mobile",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/robot-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/robot-icon.png",
+        "backgroundColor": "#4CAF50"
+      },
+      "package": "com.enick.cropdiseasedetectormobile"
+    },
+    "web": {
+      "favicon": "./assets/robot-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cd41ed72-135f-4983-bb17-5ae7ea6d49ff"
+      }
+    },
+    "owner": "enick",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cd41ed72-135f-4983-bb17-5ae7ea6d49ff"
+    }
+  }
+}

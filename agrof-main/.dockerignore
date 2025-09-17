@@ -1,0 +1,11 @@
+# Exclude everything by default to shrink Railway upload context
+*
+
+# Allow only what the Dockerfile needs
+!requirements.txt
+!src/**
+!artifacts/**
+!env.example
+
+# Optional: keep Dockerfile itself
+!Dockerfile
